@@ -183,12 +183,13 @@ public protocol MessagingAPIProtocol : AnyObject {
   func getConfigurations() -> SDKConfigurations.Configurations
   func getBotAgentDetails() -> MessagingAPI.AgentDetails
 }
-@frozen public struct AgentDetails {
+@frozen public struct AgentDetails : Swift.Equatable {
   public static let initialBot: MessagingAPI.AgentDetails
   public let name: Swift.String
   public let isBot: Swift.Bool
   public let avatar: UIKit.UIImage?
   public init(name: Swift.String, isBot: Swift.Bool, avatar: UIKit.UIImage?)
+  public static func == (a: MessagingAPI.AgentDetails, b: MessagingAPI.AgentDetails) -> Swift.Bool
 }
 public struct EquatableMessagingItem {
   public let messagingItem: MessagingAPI.MessagingItem
@@ -272,7 +273,8 @@ public struct ImageQuery : MessagingAPI.Query, MessagingAPI.ImageItem, Messaging
   public var url: Foundation.URL {
     get
   }
-  public init(id: Swift.String, timestamp: Foundation.Date = Date(), status: MessagingAPI.ItemDeliveryStatus, attachment: MessagingAPI.Attachment)
+  public let cachedURL: Foundation.URL?
+  public init(id: Swift.String, timestamp: Foundation.Date = Date(), status: MessagingAPI.ItemDeliveryStatus, attachment: MessagingAPI.Attachment, cachedURL: Foundation.URL? = nil)
   public static func == (a: MessagingAPI.ImageQuery, b: MessagingAPI.ImageQuery) -> Swift.Bool
   public var hashValue: Swift.Int {
     get
