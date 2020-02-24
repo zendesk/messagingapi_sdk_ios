@@ -14,55 +14,55 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Fi5xzFNa/sTcLjBfEmTEAc030sg=
+		dMjFTwPvVk7MWCvTfkKG1oobG94=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Qq1cR/u26JCXrqU6laAyVXw10uA=
+		5YNcOK1SKEW1QQtMNNaYjTbB72U=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qwnQkig0ymaIIHBKb6LTc4fRaZ0=
+		UG4+H0fWqRUJxjvgwxTkuftdRPM=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+nCopTMI3FJTA7xTg18qbIN3yEs=
+		DeTwKa8wYZ7VnupM50GOYZjDGSk=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/i386.swiftdoc</key>
 		<data>
-		Qq1cR/u26JCXrqU6laAyVXw10uA=
+		5YNcOK1SKEW1QQtMNNaYjTbB72U=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/i386.swiftinterface</key>
 		<data>
-		qwnQkig0ymaIIHBKb6LTc4fRaZ0=
+		UG4+H0fWqRUJxjvgwxTkuftdRPM=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/i386.swiftmodule</key>
 		<data>
-		+nCopTMI3FJTA7xTg18qbIN3yEs=
+		DeTwKa8wYZ7VnupM50GOYZjDGSk=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VU0VBVp5DLCwmz3MwkL08dq8wJE=
+		OLzfQNfuC4wC0+niVVCkxOOIMyY=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fRf+aO1vMqzolIoaIqMo6KKQanM=
+		+snLgNDyw8+R15wdCtan1shVsOo=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vnyg45JP/o0FlnpNO3GUWzEPFq0=
+		72ZRELazB4Cvxjzhn1qTRMxuf24=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		VU0VBVp5DLCwmz3MwkL08dq8wJE=
+		OLzfQNfuC4wC0+niVVCkxOOIMyY=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		fRf+aO1vMqzolIoaIqMo6KKQanM=
+		+snLgNDyw8+R15wdCtan1shVsOo=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		vnyg45JP/o0FlnpNO3GUWzEPFq0=
+		72ZRELazB4Cvxjzhn1qTRMxuf24=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -97,132 +97,132 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Qq1cR/u26JCXrqU6laAyVXw10uA=
+			5YNcOK1SKEW1QQtMNNaYjTbB72U=
 			</data>
 			<key>hash2</key>
 			<data>
-			DoWJUeCOu7jPMlFAo9tHMasQJdXTPirhJ6klgAR5W5s=
+			EPWSviZZeGULurLrrEH5dKBrpNClxQI+GLC5HCntTMU=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qwnQkig0ymaIIHBKb6LTc4fRaZ0=
+			UG4+H0fWqRUJxjvgwxTkuftdRPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CNb9nsxEuKS0YODt0LWfPPy6BhMqVflp5+Cl/7UOlM=
+			m3+y9I68DgQFMBd53nc/f00VNcYj31aMMu4i7O0pOmw=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+nCopTMI3FJTA7xTg18qbIN3yEs=
+			DeTwKa8wYZ7VnupM50GOYZjDGSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z3pPN2UEs5fT13wbi/XWqdCbZ9YchkstRwyKZ/VcJxg=
+			sVPxYyczJlSfYDt2kbCfZNXFjOqjfweCplTUjTVt5Ow=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/i386.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Qq1cR/u26JCXrqU6laAyVXw10uA=
+			5YNcOK1SKEW1QQtMNNaYjTbB72U=
 			</data>
 			<key>hash2</key>
 			<data>
-			DoWJUeCOu7jPMlFAo9tHMasQJdXTPirhJ6klgAR5W5s=
+			EPWSviZZeGULurLrrEH5dKBrpNClxQI+GLC5HCntTMU=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/i386.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qwnQkig0ymaIIHBKb6LTc4fRaZ0=
+			UG4+H0fWqRUJxjvgwxTkuftdRPM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0CNb9nsxEuKS0YODt0LWfPPy6BhMqVflp5+Cl/7UOlM=
+			m3+y9I68DgQFMBd53nc/f00VNcYj31aMMu4i7O0pOmw=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+nCopTMI3FJTA7xTg18qbIN3yEs=
+			DeTwKa8wYZ7VnupM50GOYZjDGSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z3pPN2UEs5fT13wbi/XWqdCbZ9YchkstRwyKZ/VcJxg=
+			sVPxYyczJlSfYDt2kbCfZNXFjOqjfweCplTUjTVt5Ow=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VU0VBVp5DLCwmz3MwkL08dq8wJE=
+			OLzfQNfuC4wC0+niVVCkxOOIMyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Cu7hgo7kcOWkw7YqxwDlsPpX1G39JHIaLropLsMlZMQ=
+			GqVDv4l5899xTJfbTNiNHuNgtdKcRxv+kv+X/L2sq2c=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fRf+aO1vMqzolIoaIqMo6KKQanM=
+			+snLgNDyw8+R15wdCtan1shVsOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			T9qQceK1WQ0qCNwQeNdAMTu8vJuvgib43G04VRB9aj0=
+			WeDWWF8zwyDzioT1cztjDCdC/R6XgKgSCaaz9BNm5bE=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vnyg45JP/o0FlnpNO3GUWzEPFq0=
+			72ZRELazB4Cvxjzhn1qTRMxuf24=
 			</data>
 			<key>hash2</key>
 			<data>
-			qlisNephXjPhnlXdOyvuAASTHQVuJ1IC8TtfWLMEpso=
+			mIwMNwskoZbhO3Bs+3ya41QFi24Vau4c5BLNaPE/YjE=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VU0VBVp5DLCwmz3MwkL08dq8wJE=
+			OLzfQNfuC4wC0+niVVCkxOOIMyY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Cu7hgo7kcOWkw7YqxwDlsPpX1G39JHIaLropLsMlZMQ=
+			GqVDv4l5899xTJfbTNiNHuNgtdKcRxv+kv+X/L2sq2c=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fRf+aO1vMqzolIoaIqMo6KKQanM=
+			+snLgNDyw8+R15wdCtan1shVsOo=
 			</data>
 			<key>hash2</key>
 			<data>
-			T9qQceK1WQ0qCNwQeNdAMTu8vJuvgib43G04VRB9aj0=
+			WeDWWF8zwyDzioT1cztjDCdC/R6XgKgSCaaz9BNm5bE=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vnyg45JP/o0FlnpNO3GUWzEPFq0=
+			72ZRELazB4Cvxjzhn1qTRMxuf24=
 			</data>
 			<key>hash2</key>
 			<data>
-			qlisNephXjPhnlXdOyvuAASTHQVuJ1IC8TtfWLMEpso=
+			mIwMNwskoZbhO3Bs+3ya41QFi24Vau4c5BLNaPE/YjE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
