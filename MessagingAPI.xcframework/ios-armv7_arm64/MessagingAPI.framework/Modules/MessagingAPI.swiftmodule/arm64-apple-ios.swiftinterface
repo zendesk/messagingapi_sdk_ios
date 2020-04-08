@@ -117,10 +117,10 @@ extension Observable {
   public func notifyObservers(_ observable: Self.Observable)
 }
 @objc(ZDKObservationToken) final public class ObservationToken : ObjectiveC.NSObject {
+  @objc deinit
   public init(id: Foundation.UUID, cancellationClosure: @escaping () -> Swift.Void)
   @objc final public func cancel()
   @objc override dynamic public init()
-  @objc deinit
 }
 public struct TransferResponse : MessagingAPI.Response, Swift.Hashable {
   public let id: Swift.String
@@ -167,6 +167,11 @@ public struct InputFieldState : Swift.Equatable {
   public var endUserHint: Swift.String?
   public init(enabled: Swift.Bool, shouldShowAttachmentIcon: Swift.Bool, endUserHint: Swift.String? = nil)
   public static func == (a: MessagingAPI.InputFieldState, b: MessagingAPI.InputFieldState) -> Swift.Bool
+}
+public struct Banner : Swift.Equatable {
+  public let text: Swift.String
+  public init(text: Swift.String)
+  public static func == (a: MessagingAPI.Banner, b: MessagingAPI.Banner) -> Swift.Bool
 }
 public protocol LoggableItem {
   var timestamp: Foundation.Date { get }
@@ -241,19 +246,23 @@ public struct ImageResponse : MessagingAPI.Response, MessagingAPI.ImageItem, Mes
   }
   public func hash(into hasher: inout Swift.Hasher)
 }
-public enum ConnectionState : Swift.String {
+public enum ConnectionStatus : Swift.String {
   case connecting
   case connected
   case disconnected
   case reconnecting
   case failed
+  case unreachable
+  public var isConnected: Swift.Bool {
+    get
+  }
   public typealias RawValue = Swift.String
   public init?(rawValue: Swift.String)
   public var rawValue: Swift.String {
     get
   }
 }
-extension ConnectionState : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
+extension ConnectionStatus : Swift.CustomStringConvertible, Swift.CustomDebugStringConvertible {
   public var description: Swift.String {
     get
   }
@@ -270,6 +279,7 @@ public enum Event : Swift.Equatable {
   case messageResent(messageId: Swift.String, message: Swift.String? = nil)
   case articleSuggestionClicked(articleId: Swift.Int64, articleUrl: Swift.String, deflectionId: Swift.Int64, interactionAccessToken: Swift.String, navigationController: UIKit.UINavigationController?)
   case actionOptionClicked(description: Swift.String, action: (([Swift.String : Any]) -> Swift.Void), navigationController: UIKit.UINavigationController? = nil)
+  case onMenuTap(action: ([UIKit.UIAlertAction]) -> Swift.Void)
   case transferOptionClicked(transferOption: MessagingAPI.TransferOptionDescription)
   case responseOptionClicked(optionViewModelId: Swift.String, responseCellViewModelId: Swift.String)
   case reconnectButtonClicked
@@ -317,8 +327,11 @@ public enum Update : Swift.Equatable {
   case removeMessagingItem(id: Swift.String, animated: Swift.Bool)
   case appendMessagingItems(items: [MessagingAPI.MessagingItem], animated: Swift.Bool)
   case updateActiveAgent(agent: MessagingAPI.AgentDetails)
-  case updateConnectionState(_: MessagingAPI.ConnectionState)
+  case updateConnectionStatus(_: MessagingAPI.ConnectionStatus)
   case updateInputFieldState(_: MessagingAPI.InputFieldState)
+  case showBanner(MessagingAPI.Banner)
+  case showMenu(Swift.Bool)
+  case presentAlertController(UIKit.UIAlertController)
 }
 extension Update {
   public static func == (lhs: MessagingAPI.Update, rhs: MessagingAPI.Update) -> Swift.Bool
@@ -408,8 +421,8 @@ public protocol SeparatorItem : MessagingAPI.MessagingItem {
     get
   }
 }
-extension MessagingAPI.ConnectionState : Swift.Equatable {}
-extension MessagingAPI.ConnectionState : Swift.Hashable {}
-extension MessagingAPI.ConnectionState : Swift.RawRepresentable {}
+extension MessagingAPI.ConnectionStatus : Swift.Equatable {}
+extension MessagingAPI.ConnectionStatus : Swift.Hashable {}
+extension MessagingAPI.ConnectionStatus : Swift.RawRepresentable {}
 extension MessagingAPI.ApplicationEvent : Swift.Hashable {}
 extension MessagingAPI.ApplicationEvent : Swift.RawRepresentable {}
