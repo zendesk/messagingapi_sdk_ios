@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "ZendeskSDKConfigurationsSDK",
-                 url: "https://github.com/zendesk/sdkconfigurations_sdk_ios/releases/download/1.1.7/SDKConfigurations.xcframework.zip",
+                 url: "https://github.com/zendesk/sdkconfigurations_sdk_ios",
                  from: "1.1.7")
     ],
     targets: [
