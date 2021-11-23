@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSDKConfigurationsSDK",
                  url: "https://github.com/zendesk/sdkconfigurations_sdk_ios",
-                 from: "1.1.8")
+                 .exact("1.1.9"))
     ],
     targets: [
         .binaryTarget(
