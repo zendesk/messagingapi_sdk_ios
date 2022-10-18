@@ -3,7 +3,7 @@ import PackageDescription
 let package = Package(
     name: "ZendeskMessagingAPISDK",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v11)
     ],
     products: [
         .library(
@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(name: "ZendeskSDKConfigurationsSDK",
                  url: "https://github.com/zendesk/sdkconfigurations_sdk_ios",
-                 .exact("1.1.11"))
+                 .exact("2.0.0"))
     ],
     targets: [
         .binaryTarget(
