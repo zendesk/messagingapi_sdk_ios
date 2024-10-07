@@ -14,11 +14,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ImgmWVVqETlFdn4T/TrRrsSIVPY=
+		JO3oTcvjvSg8VeNnrTzp0zLWqb8=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ViRDWWaejjtzPwdl6vcw+3OZdTk=
+		HghtyPZexs1phOcjmFH9AEaUD1A=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ViRDWWaejjtzPwdl6vcw+3OZdTk=
+		HghtyPZexs1phOcjmFH9AEaUD1A=
 		</data>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -81,7 +81,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			se/8+viR6MyUGi7QVwyFouXfZb2/QSJV5INx2no444Q=
+			iN5pgeW0IlecFqFtcDDtvFdC4RcfLRfsQZLQyr4InLc=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			se/8+viR6MyUGi7QVwyFouXfZb2/QSJV5INx2no444Q=
+			iN5pgeW0IlecFqFtcDDtvFdC4RcfLRfsQZLQyr4InLc=
 			</data>
 		</dict>
 		<key>Modules/MessagingAPI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
